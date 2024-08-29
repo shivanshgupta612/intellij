@@ -69,9 +69,7 @@ class Pawn extends Piece{
     @Override
     void makeMove(int fromRow,int fromColumn,int toRow, int toColumn) {
         //normal move for white
-        if(-toRow+fromRow==1 && toColumn==fromColumn && ){
 
-        }
     }
 }
 class King extends Piece{
