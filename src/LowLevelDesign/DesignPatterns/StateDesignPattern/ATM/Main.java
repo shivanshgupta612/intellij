@@ -8,6 +8,7 @@ public class Main {
         atm.enterPin(1234); // PIN accepted
         atm.requestCash(50); // Cash dispensed
 
+
         atm.insertCard(); // Card is already inserted
         atm.enterPin(1234); // Already authenticated
         atm.requestCash(60); // Insufficient cash in the machine
