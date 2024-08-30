@@ -1,4 +1,4 @@
-package LowLevelDesign.DesignPatterns.StrategyPettern;
+package LowLevelDesign.DesignPatterns.StrategyPattern;
 
 public class Sorter {
     SortingStrategy sortingStrategy;
