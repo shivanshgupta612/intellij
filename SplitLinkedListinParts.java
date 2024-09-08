@@ -9,7 +9,14 @@ class ListNode {
 }
 
 //https://leetcode.com/problems/split-linked-list-in-parts/
+
 public class SplitLinkedListinParts {
+    //k=7 count=27
+    // 27/7 = 3 27%7 = 6
+    // 1234 5678 9101112 13141516 17181920 21222324 252627 4444443
+    //k=7 count=11
+    // 11/7 = 1 11%7 = 4
+    // 12 34 56 78 9 10 11 2222111
     public ListNode[] splitListToParts(ListNode head, int k) {
         ListNode curr=head;
         int count=0;
@@ -62,9 +69,3 @@ public class SplitLinkedListinParts {
         return res;
     }
 }
-//k=7 count=27
-// 27/7 = 3 27%7 = 6
-// 1234 5678 9101112 13141516 17181920 21222324 252627 4444443
-//k=7 count=11
-// 11/7 = 1 11%7 = 4
-// 12 34 56 78 9 10 11 2222111
